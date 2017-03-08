@@ -12,7 +12,7 @@
 
 }
 
-.notification-container .notifications {
+.notification-container .notification {
 //ul
   list-style: none;
   padding: 0;
@@ -26,22 +26,22 @@
   height: 100vh;
 }
 
-.notifications li {
+.notification li {
   margin: 2.5px;
 }
 
-.notifications li .notifications {
+.notification li .notification {
   padding: 10px 25px;
   border-radius: 5px;
 }
 
-.notifications li .notifications.connect {
+.notification li .notification.connect {
   background: teal;
 }
 
-.notifications li .notifications.disconnect {
+.notification li .notification.disconnect {
   background: grey;
 }
-.notifications li .notifications.info {
+.notification li .notification.info {
   background: blue;
 }
