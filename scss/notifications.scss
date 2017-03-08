@@ -26,22 +26,22 @@
   height: 100vh;
 }
 
-.notification li {
+.notifications li {
   margin: 2.5px;
 }
 
-.notification li .notification {
+.notifications li .notification {
   padding: 10px 25px;
   border-radius: 5px;
 }
 
-.notification li .notification.connect {
+.notifications li .notification.connect {
   background: teal;
 }
 
-.notification li .notification.disconnect {
+.notifications li .notification.disconnect {
   background: grey;
 }
-.notification li .notification.info {
+.notifications li .notification.info {
   background: blue;
 }
