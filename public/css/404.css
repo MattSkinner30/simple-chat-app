@@ -1,0 +1,41 @@
+h1 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 60pt;
+  width: 60%;
+  margin-left: 20%;
+  color: #73dcb2
+}
+/**
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24pt;
+  text-align: center;
+  color: #0d5f3e;
+  margin: 0 0 15% 0;
+}
+**/
+
+.button {
+  margin-top: auto;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#8affbd), to(#73dcb2));
+  padding: 1em 2em;
+  border-radius: 15px;
+  text-decoration: none;
+  color: #0d5f3e;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  width: 20%;
+  margin-left: 40%;
+}
+
+.button:hover {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#777777), to(#2b2b2b));
+  color: #8affbd;
+}
+
+
+/**
+font-family: 'Roboto Slab', serif;
+font-family: 'Open Sans', sans-serif;
+#73DCB2
+**/
