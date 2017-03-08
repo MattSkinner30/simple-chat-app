@@ -1,0 +1,47 @@
+html {
+  font-style: 
+}
+
+
+.notifications li .notification.info {
+  background: #73dcb2;
+}
+
+.notifications li .notification.connect {
+  background: #73dcb2;
+}
+
+.notifications li .notification.disconnect {
+  background: red;
+}
+
+.notification-container .notifications {
+  list-style: none;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+}
+
+.notifications li {
+  margin: 2px 0;
+}
+
+.notifications li .notification {
+  padding: 1rem;
+  color: white;
+  font-family: sans-serif;
+}
+
+.notification-container {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 100vh;
+    width: 10vw;
+    min-width: 250px;
+    pointer-events: none;
+}
