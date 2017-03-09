@@ -1,5 +1,10 @@
 @import 'colors';
 
+.logo {
+  width: 30%;
+  padding-bottom: 15%;
+}
+
 .login {
   @include position(fixed);
 
@@ -17,7 +22,7 @@
 }
 
 .login-form {
-  margin-top: 40%;
+  margin-top: 15%;
 }
 
 .container input{
